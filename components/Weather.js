@@ -108,14 +108,12 @@ const styles = StyleSheet.create({
     searchContainer: {
         flexDirection: 'row',
         alignItems: 'center',
-        borderColor: 'gray',
-        borderWidth: 1,
-        borderRadius: 5,
         padding: 5,
+        marginTop:4,
       },
     searchButton: {
         width:"25%",
-        backgroundColor: '#007BFF',
+        backgroundColor: '#108BBB',
         paddingVertical: 10,
         paddingHorizontal: 15,
         borderRadius: 5,
@@ -127,7 +125,7 @@ const styles = StyleSheet.create({
         marginHorizontal:6,
         marginVertical:12,
         width:"96%",
-        backgroundColor: 'skyblue',
+        backgroundColor: 'lightcyan',
         height:556,
       },
       searchButtonText: {
