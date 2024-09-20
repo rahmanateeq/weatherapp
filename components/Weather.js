@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
         marginTop: 10,
       },
       infoContainer: {
+        marginHorizontal:4,
         flexDirection: 'row',
         justifyContent: 'space-between',
         marginTop: 4,
@@ -102,7 +103,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#E0F7FA', // Light blue background color
+        backgroundColor: '#E0F4FA', // Light blue background color
         padding: 16,
     },
     searchContainer: {
@@ -116,7 +117,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#108BBB',
         paddingVertical: 10,
         paddingHorizontal: 15,
-        borderRadius: 5,
+        borderRadius: 10,
         marginLeft: 5,
       },
       resultComponent:{
@@ -129,13 +130,13 @@ const styles = StyleSheet.create({
         height:556,
       },
       searchButtonText: {
-        color: 'white',
+        color: 'black',
         fontWeight: 'bold',
       },
     input: {
         width:"73%",
         height: 40,
-        borderColor: 'black',
+        borderColor: 'white',
         borderWidth: 2,
         paddingLeft: 8,
         marginTop:3,
